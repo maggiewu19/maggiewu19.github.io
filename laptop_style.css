@@ -28,7 +28,6 @@ and (max-device-width : 1444px) {
         font-weight: 300; 
     }
     .top {
-        /* visibility: hidden;  */
         position: fixed; 
         top: -12px; 
         left: 30px; 
