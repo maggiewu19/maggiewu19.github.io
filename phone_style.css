@@ -6,6 +6,7 @@ and (max-device-width : 767px) {
         font-family: 'Dosis', sans-serif;
         font-size: 25px; 
         /* padding: 10px 40px; */
+        margin: 10px 40px; 
         position: fixed; 
         width: 100%; 
         top: 0; 
