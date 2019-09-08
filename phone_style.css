@@ -24,6 +24,11 @@ and (max-device-width : 767px) {
         font-family: 'Dosis', sans-serif;
         font-weight: 300; 
     }
+    .name {
+        position: fixed; 
+        top: -12px; 
+        left: 30px; 
+    }
     .top {
         visibility: hidden; 
         margin-top: 0; 
