@@ -50,7 +50,6 @@ and (max-device-width : 767px) {
         position: fixed; 
         top: 0; 
         right: 20px;
-        font-family: 'Nunito', sans-serif;
         display: inline-block;
     }
     .dropdown-content {
