@@ -31,6 +31,9 @@ and (max-device-width : 767px) {
         visibility: hidden; 
         margin-top: 0; 
     }
+    .topnav {
+        visibility: hidden; 
+    }
     .dropbtn {
         background-color: solid skyblue;
         color: black;
