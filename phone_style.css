@@ -9,7 +9,7 @@ and (max-device-width : 767px) {
         position: fixed; 
         width: 100%; 
     }
-    body {
+    html, body {
         margin: 0; 
         position: relative; 
         overflow-x: hidden; 
@@ -164,22 +164,20 @@ and (max-device-width : 767px) {
         color: lightslategray;
     }
     .life-left-desc-title {
-        text-align: right; 
+        text-align: center; 
     }
     .life-left-desc {
         text-align: right; 
         color: lightslategray
     }
     .life-right-desc-title {
-        padding-top: 20px; 
-        text-align: left; 
+        display: none; 
     }
     .life-right-desc {
-        text-align: left; 
-        color: lightslategray
+        display: none; 
     }
     .life-empty-desc {
-        visibility: hidden; 
+        display: none; 
     }
 
     .work-split {
