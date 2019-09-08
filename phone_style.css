@@ -4,10 +4,10 @@ and (max-device-width : 767px) {
     header {
         background-color: azure; 
         font-family: 'Dosis', sans-serif;
-        font-size: 20px; 
         position: fixed; 
         overflow-x: hidden; 
         width: 100%; 
+        padding: 25px;
     }
     body {
         margin: 0; 

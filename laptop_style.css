@@ -5,7 +5,7 @@ and (max-device-width : 1444px) {
         background-color: azure; 
         font-family: 'Dosis', sans-serif;
         font-size: 25px; 
-        padding: 10px 40px;
+        padding: 25px; 
         position: fixed; 
         width: 100%; 
         top: 0; 
