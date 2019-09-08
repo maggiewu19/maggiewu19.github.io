@@ -127,8 +127,8 @@ and (max-device-width : 767px) {
     .social-section {
         padding-top: 50px; 
         padding-bottom: 50px; 
-        padding-left: 45%; 
-        padding-right: 45%; 
+        padding-left: 35%; 
+        padding-right: 35%; 
     }
     .section-title {
         padding-top: 50px; 
@@ -193,7 +193,7 @@ and (max-device-width : 767px) {
         
     }
     .social-split {
-        
+        column-count: 3; 
     }
 
     .timeline {
@@ -201,6 +201,6 @@ and (max-device-width : 767px) {
         height: 100px;
         position: relative;
         left: 50%;
-        top: 0;
+        top: 10px;
     }
 }
