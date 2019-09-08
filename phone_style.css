@@ -6,6 +6,7 @@ and (max-device-width : 767px) {
         font-family: 'Dosis', sans-serif;
         font-size: 20px; 
         position: fixed; 
+        overflow-x: hidden; 
         width: 100%; 
     }
     body {
@@ -191,13 +192,5 @@ and (max-device-width : 767px) {
     }
     .social-split {
         column-count: 3; 
-    }
-
-    .timeline {
-        border-left: 3px solid whitesmoke;
-        height: 100px;
-        position: relative;
-        left: 50%;
-        top: 10px;
     }
 }

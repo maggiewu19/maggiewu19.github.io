@@ -13,7 +13,7 @@ and (max-device-width : 1444px) {
     body {
         background-image: url("images/background.jpg");
         background-repeat: no-repeat; 
-        background-position: 97% 13.5%; 
+        background-position: 97.5% 13.5%; 
         margin: 0; 
         overflow-x: hidden; 
     }
@@ -74,7 +74,7 @@ and (max-device-width : 1444px) {
         margin-bottom: 50px; 
     }
     .intro {
-        max-width: 650px; 
+        max-width: 70%; 
         margin-left: auto; 
         margin-right: auto; 
         line-height: 2; 
@@ -136,8 +136,8 @@ and (max-device-width : 1444px) {
     .life-block {
         border-radius: 50%; 
         border: 5px solid whitesmoke;
-        height: 175px; 
-        width: 175px; 
+        height: 60%; 
+        width: 60%; 
     }
     .social-block {
         width: 35px; 
@@ -188,12 +188,7 @@ and (max-device-width : 1444px) {
     .social-split {
         column-count: 3; 
     }
-
     .timeline {
-        border-left: 3px solid whitesmoke;
-        height: 100px;
-        position: relative;
-        left: 50%;
-        top: 0;
+        padding: 0; 
     }
 }
