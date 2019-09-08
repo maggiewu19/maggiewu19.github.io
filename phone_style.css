@@ -167,7 +167,7 @@ and (max-device-width : 767px) {
         text-align: center; 
     }
     .life-left-desc {
-        text-align: right; 
+        text-align: center; 
         color: lightslategray
     }
     .life-right-desc-title {
@@ -176,7 +176,10 @@ and (max-device-width : 767px) {
     .life-right-desc {
         display: none; 
     }
-    .life-empty-desc {
+    .life-left-empty-desc {
+        text-align: center; 
+    }
+    .life-right-empty-desc {
         display: none; 
     }
 

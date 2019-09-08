@@ -168,7 +168,10 @@ and (max-device-width : 1444px) {
         text-align: left; 
         color: lightslategray
     }
-    .life-empty-desc {
+    .life-left-empty-desc {
+        visibility: hidden; 
+    }
+    .life-right-empty-desc {
         visibility: hidden; 
     }
 
