@@ -1,0 +1,220 @@
+@media only screen 
+and (min-width : 1444px) {
+    header {
+        background-color: azure; 
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px; 
+        padding: 10px 40px;
+        position: fixed; 
+        width: 100%; 
+        top: 0; 
+    }
+    body {
+        background-image: url("images/background.jpg");
+        background-repeat: no-repeat; 
+        background-position: 97% 11%; 
+        margin: 0; 
+        overflow-x: hidden; 
+    }
+    img { 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center; 
+        font-family: 'Dosis', sans-serif;
+        font-weight: 300; 
+    }
+    .top {
+        visibility: hidden; 
+        margin-top: 0; 
+    }
+    .dropbtn {
+        background-color: solid skyblue;
+        color: black;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin: 3px; 
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: solid skyblue;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {background-color: lavender}
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: solid lavender;
+    }
+    .topnav {
+        overflow: hidden;
+        font-family: 'Nunito', sans-serif;
+        position: fixed; 
+        top: 0; 
+        right: 0;
+    }
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 3px 
+    }
+    .topnav a:hover {
+        background-color: lavender;
+        color: black;
+        margin: 3px 
+    }
+    .topnav a.active {
+        background-color: solid lightskyblue;
+        color: black;
+        margin: 3px 
+    }
+    .photo {
+        border-radius: 50%; 
+        height: 250px; 
+        width: 250px; 
+        margin-top: 100px; 
+        margin-bottom: 50px; 
+    }
+    .intro {
+        max-width: 650px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        line-height: 2; 
+    }
+    .emphasis {
+        color: sienna; 
+    }
+
+    .intro-section {
+        padding-bottom: 50px; 
+        padding-left: 20%; 
+        padding-right: 20%; 
+    }
+    .work-section {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+    .skills-section {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+        padding-left: 12.5%; 
+        padding-right: 12.5%; 
+        background-color: rgb(250, 250, 250); 
+    }
+    .life-section {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+    .contact-section {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+        padding-left: 10%;
+        padding-right: 10%; 
+        background-color: rgb(250, 250, 250); 
+    }
+    .social-section {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+        padding-left: 45%; 
+        padding-right: 45%; 
+    }
+    .section-title {
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+    }
+
+    .work-block {
+        width: 80%;
+        height: 80%; 
+    }
+    .skills-block {
+        width: 125px; 
+        height: 125px; 
+    }
+    .life-block {
+        border-radius: 50%; 
+        border: 5px solid whitesmoke;
+        height: 175px; 
+        width: 175px; 
+    }
+    .social-block {
+        width: 35px; 
+        height: 35px; 
+    }
+
+    .work-desc {
+        max-width: 250px; 
+        text-align: center; 
+    }
+    .skills-desc {
+        max-width: 225px; 
+        text-align: center; 
+        color: lightslategray;
+    }
+    .life-left-desc-title {
+        text-align: right; 
+    }
+    .life-left-desc {
+        text-align: right; 
+        color: lightslategray
+    }
+    .life-right-desc-title {
+        padding-top: 20px; 
+        text-align: left; 
+    }
+    .life-right-desc {
+        text-align: left; 
+        color: lightslategray
+    }
+    .life-empty-desc {
+        visibility: hidden; 
+    }
+
+    .work-split {
+        column-count: 4; 
+        max-height: 250px; 
+    }
+    .skills-split {
+        column-count: 4; 
+    }
+    .life-split {
+        column-count: 3; 
+    }
+    .social-split {
+        column-count: 3; 
+    }
+
+    .timeline {
+        border-left: 3px solid whitesmoke;
+        height: 100px;
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+}
