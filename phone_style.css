@@ -5,11 +5,12 @@ and (max-device-width : 767px) {
         background-color: azure; 
         font-family: 'Dosis', sans-serif;
         font-size: 25px; 
-        /* padding: 10px 40px; */
-        margin: 10px 40px; 
+        padding-top: 10px; 
+        padding-bottom: 10px; 
         position: fixed; 
         width: 100%; 
-        top: 0; 
+        top: 3px; 
+        right: 3px; 
     }
     html, body {
         margin: 0; 
