@@ -11,9 +11,6 @@ and (max-device-width : 767px) {
         top: 0; 
     }
     body {
-        background-image: url("images/background.jpg");
-        background-repeat: no-repeat; 
-        background-position: 97% 11%; 
         margin: 0; 
         overflow-x: hidden; 
     }
@@ -44,7 +41,9 @@ and (max-device-width : 767px) {
         margin: 3px; 
     }
     .dropdown {
-        position: relative;
+        position: fixed; 
+        top: 0; 
+        right: 0;
         display: inline-block;
     }
     .dropdown-content {
@@ -175,11 +174,11 @@ and (max-device-width : 767px) {
     }
 
     .work-split {
-        column-count: 4; 
+        column-count: 1; 
         max-height: 250px; 
     }
     .skills-split {
-        column-count: 4; 
+        column-count: 1; 
     }
     .life-split {
         column-count: 3; 
