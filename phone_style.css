@@ -37,11 +37,8 @@ and (max-device-width : 767px) {
         visibility: hidden; 
     }
     .dropbtn {
-        background-color: solid skyblue;
-        font-family: 'Nunito', sans-serif;
-        color: black;
+        background-image: url("images/menu.jpg");
         padding: 12px 16px;
-        font-size: 16px;
         border: none;
         cursor: pointer;
         margin: 3px; 
@@ -184,16 +181,6 @@ and (max-device-width : 767px) {
     }
     .life-right-empty-desc {
         display: none; 
-    }
-
-    .work-split {
-        
-    }
-    .skills-split {
-        
-    }
-    .life-split {
-        
     }
     .social-split {
         column-count: 3; 
